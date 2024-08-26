@@ -4,10 +4,17 @@
   padding: 2rem;
   text-align: center;
 }
+.logo {
+  filter: brightness(0) invert(1);
+}
 
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa) brightness(0) invert(1);
+}
 
-
-
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa) brightness(0) invert(1);
+}
 
 .logo {
   height: 6em;
